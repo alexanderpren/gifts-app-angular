@@ -2,6 +2,11 @@
   <h3 class="text-light">Gifs-App</h3>
   <hr class="text-white" />
   <div class="list-group list-reset">
-    <a href="#" class="list-group-item list-group-item-action">Dashboard</a>
+    <a
+      *ngFor="let item of historyArray"
+      href="#"
+      class="list-group-item list-group-item-action"
+      >{{ item | titlecase }}</a
+    >
   </div>
 </div>

@@ -1,0 +1,1 @@
+import { SearchGifsResponse } from './gif';
