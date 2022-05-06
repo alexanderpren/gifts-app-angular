@@ -12,5 +12,9 @@ export class SidebarComponent {
   get historyArray(): string[] {
     return this.gifsService.history;
   }
+  onClick(search: string) {
+    this.gifsService.getGifs(search);
+  }
+  
   
 }

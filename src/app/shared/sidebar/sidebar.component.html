@@ -6,6 +6,7 @@
       *ngFor="let item of historyArray"
       href="#"
       class="list-group-item list-group-item-action"
+      (click)="onClick(item)"
       >{{ item | titlecase }}</a
     >
   </div>
